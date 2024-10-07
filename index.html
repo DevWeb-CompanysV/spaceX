@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="./css/style.css" />
     <script src="./js/script.js" defer></script>
     <title>SpaceX</title>
@@ -12,22 +18,17 @@
     <div id="overlay"></div>
     <div id="mobile-menu" class="mobile-main-menu">
       <ul>
-        <li><a href="#">Mission</a></li>
-        <li><a href="#">launches</a></li>
-        <li><a href="#">Careers</a></li>
-        <li><a href="#">Updates</a></li>
-        <li><a href="#">Shop</a></li>
-
-        <li class="mobile-only"><a href="falcon9.html">Falcon 9</a></li>
+        <li><a href="#">Giới thiệu tập đoàn</a></li>
+        <li><a href="#">Lĩnh vực hoạt động</a></li>
+        <li><a href="#">Quan hệ cổ đông</a></li>
+        <li class="mobile-only"><a href="falcon9.html">Trang chủ</a></li>
         <li class="mobile-only">
-          <a href="falcon-heavy.html">Falcon Heavy</a>
+          <a href="falcon-heavy.html">Tin tức</a>
         </li>
-        <li class="mobile-only"><a href="dragon.html">Dragon</a></li>
-        <li class="mobile-only"><a href="#">Starship</a></li>
-        <li class="mobile-only"><a href="#">Human Spaceflight</a></li>
-        <li class="mobile-only"><a href="#">Rideshare</a></li>
-        <li class="mobile-only"><a href="#"> Starlink</a></li>
-        <li class="mobile-only"><a href="#">Shop</a></li>
+        <li class="mobile-only"><a href="dragon.html">Quyền lợi</a></li>
+        <li class="mobile-only"><a href="#">Tuyển dụng</a></li>
+        <li class="mobile-only"><a href="#">Liên hệ</a></li>
+        <li class="mobile-only"><a href="#">Đăng nhập</a></li>
       </ul>
     </div>
     <header class="main-header">
@@ -38,15 +39,13 @@
       </div>
       <nav class="desktop-main-menu">
         <ul>
+          <li><a href="#">Trang chủ</a></li>
           <!-- TODO:add proper header -->
-          <li><a href="falcon9.html">Falcon 9</a></li>
-          <li><a href="falcon-heavy.html">Falcon Heavy</a></li>
-          <li><a href="dragon.html">Dragon</a></li>
-          <li><a href="#">Starship</a></li>
-          <li><a href="#">Human Spaceflight</a></li>
-          <li><a href="#">Rideshare</a></li>
-          <li><a href="#"> Starlink</a></li>
-          <li><a href="#">Shop</a></li>
+          <li><a href="#">Tin tức</a></li>
+          <li><a href="#">Quyền lợi</a></li>
+          <li><a href="#"> Tuyển dụng</a></li>
+          <li><a href="#">Liên hệ </a></li>
+          <li><a href="#">Đăng nhập</a></li>
         </ul>
       </nav>
     </header>
@@ -66,11 +65,11 @@
 
     <section class="section-a">
       <div class="section-inner">
-        <h4>Upcoming Launch</h4>
+        <h4>Sắp tới ra mắt</h4>
         <h2>CRS-26 Mission</h2>
         <div href="#" class="btn">
           <div class="hover"></div>
-          <span>watch</span>
+          <span>Xem</span>
         </div>
       </div>
       <div class="scroll-arrow">
@@ -88,14 +87,14 @@
 
     <section class="section-b">
       <div class="section-inner">
-        <h4>RECENT LAUNCH</h4>
+        <h4>Ra mắt gần đây</h4>
         <h2>
           EUTELSAT 10B <br />
           MISSION
         </h2>
         <div href="#" class="btn">
           <div class="hover"></div>
-          <span>Rewatch</span>
+          <span>Xem lại</span>
         </div>
       </div>
       <div class="scroll-arrow">
@@ -112,14 +111,16 @@
     <!-- section-c -->
     <section class="section-c">
       <div class="section-inner">
-        <h4>RECENT LAUNCH</h4>
+        <h4>Ra mắt gần đây</h4>
         <h2>
-          STARSHIP SELECTED<br />BY NASA TO SUPPORT <br />
-          SUSTAINED LUNAR<br />EXPLORATION
+          TÀU BIỂN ĐƯỢC NASA <br />
+          CHỌN ĐỂ HỖ TRỢ <br />
+          KHÁM PHÁ MẶT TRĂNG<br />
+          BỀN VỮNG
         </h2>
         <div href="#" class="btn">
           <div class="hover"></div>
-          <span>Learn more</span>
+          <span>Tìm hiểu thêm</span>
         </div>
       </div>
       <div class="scroll-arrow">
@@ -139,21 +140,65 @@
         <h2>STARSHIP UPDATE</h2>
         <div href="#" class="btn">
           <div class="hover"></div>
-          <span>Learn more</span>
+          <span>Tìm hiểu thêm</span>
+        </div>
+      </div>
+    </section>
+    <section class="section-e">
+      <div class="title-container mat-headline text-center my-4">
+        TIN TỨC SỰ KIỆN PHỔ BIẾN GẦN ĐÂY
+      </div>
+      <div class="row mt-4 m-0 p-4">
+        <div class="col-4">
+          <div class="solution-container position-relative">
+            <div class="position-absolute p-3" style="z-index: 2">
+              <div class="solution-headline mat-title">Residential</div>
+              <div class="solution-description mat-body-2">Connect at home</div>
+            </div>
+            <img
+              src="https://api.starlink.com/public-files/home_b_residential_m.jpg"
+              class="ng-star-inserted"
+            />
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="solution-container position-relative">
+            <div class="position-absolute p-3" style="z-index: 2">
+              <div class="solution-headline mat-title">ROAM</div>
+              <div class="solution-description mat-body-2">
+                Connect on the go
+              </div>
+            </div>
+            <img
+              src="https://api.starlink.com/public-files/home_b_roam_d.webp"
+              class="ng-star-inserted"
+            />
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="solution-container position-relative">
+            <div class="position-absolute p-3" style="z-index: 2">
+              <div class="solution-headline mat-title">BOATS</div>
+              <div class="solution-description mat-body-2">
+                Connect on the water
+              </div>
+            </div>
+            <img
+              src="https://api.starlink.com/public-files/home_boats_m.jpg"
+              class="ng-star-inserted"
+            />
+          </div>
         </div>
       </div>
     </section>
     <!-- footer  -->
     <footer>
       <ul>
-        <li><a class="spacex-text" href="#"> SPACEX © 2022</a></li>
+        <li><a class="spacex-text" href="#"> SPACEX © 2024</a></li>
         <li><a href="#">TWITTER</a></li>
         <li><a href="#">YOUTUBE</a></li>
         <li><a href="#">INSTAGRAM</a></li>
-        <li><a href="#">FLICKR</a></li>
-        <li><a href="#">LINKEDIN</a></li>
-        <li><a href="#">PRIVACY POLICY</a></li>
-        <li><a href="#">SUPPLIERS</a></li>
+        <li><a href="#">CHÍNH SÁCH</a></li>
       </ul>
     </footer>
   </body>
