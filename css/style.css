@@ -136,6 +136,9 @@ section {
 .section-d {
   background-image: url("../img/section-d.webp");
 }
+.section-h {
+  background-image: url("../img/section-h.jpg");
+}
 
 .btn {
   position: relative;
@@ -330,6 +333,12 @@ footer ul li a:hover {
 }
 .bg-dragon {
   background-image: url("../img/dragon.webp");
+}
+.bg-dragon.bg-linhvuc {
+  background-image: url("../img/testla.jpg");
+}
+.bg-dragon.bg-quanhe {
+  background-image: url("../img/codong.jpg");
 }
 .section-animate {
   animation: fadeIn 2s ease-in-out;
