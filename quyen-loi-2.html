@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+            crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/quyen-loi.css" />
+    <script src="./js/script.js" defer></script>
+    <title>SpaceX - Falcon 9</title>
+</head>
+<body>
+<div id="overlay"></div>
+<div id="mobile-menu" class="mobile-main-menu">
+    <ul>
+        <li><a href="#">Giới thiệu tập đoàn</a></li>
+        <li><a href="#">Lĩnh vực hoạt động</a></li>
+        <li><a href="#">Quan hệ cổ đông</a></li>
+        <li class="mobile-only"><a href="falcon9.html">Trang chủ</a></li>
+        <li class="mobile-only">
+            <a href="falcon-heavy.html">Tin tức</a>
+        </li>
+        <li class="mobile-only"><a href="dragon.html">Quyền lợi</a></li>
+        <li class="mobile-only"><a href="#">Tuyển dụng</a></li>
+        <li class="mobile-only"><a href="#">Liên hệ</a></li>
+        <li class="mobile-only"><a href="#">Đăng nhập</a></li>
+    </ul>
+</div>
+<header class="main-header">
+    <div class="logo">
+        <a href="index.html">
+            <img src="img/logo.png" alt="SpaceX" srcset="" />
+        </a>
+    </div>
+    <nav class="desktop-main-menu">
+        <ul>
+            <li><a href="#">Trang chủ</a></li>
+            <!-- TODO:add proper header -->
+            <li><a href="#">Tin tức</a></li>
+            <li><a href="#">Quyền lợi</a></li>
+            <li><a href="#"> Tuyển dụng</a></li>
+            <li><a href="#">Liên hệ </a></li>
+            <li><a href="#">Đăng nhập</a></li>
+        </ul>
+    </nav>
+</header>
+<!-- hamburger menu  -->
+<button
+        id="menu-btn"
+        class="hamburger"
+        type="button"
+        aria-label="hamburger"
+>
+    <span class="hamburger-top"></span>
+    <span class="hamburger-middle"></span>
+    <span class="hamburger-bottom"></span>
+</button>
+<section class="section-animate bg-dragon bg-quyen-loi "></section>
+<div class="section-inner-center">
+    <h3>SPACE-X</h3>
+
+    <p>Khám Phá Quyền Lợi</p>
+</div>
+<section class="mt-4" style="padding: 0 25px; height: 103vh">
+    <div
+            class="text-center"
+            style="display: flex; flex-direction: column; align-items: center"
+    >
+        <h3
+                style="
+            font-size: 50px;
+            font-weight: 700;
+            margin-bottom: 20px;
+            animation: fadeInUp 0.5s ease-in-out 0.2s;
+            animation-fill-mode: both;
+          "
+        >
+            Hạng Thẻ SpaceX
+        </h3>
+        <p style="width: 60%">
+            **Hạng Thẻ SpaceX VIP:** Nhận ưu đãi giảm giá cho các chuyến bay SpaceX và tham gia sự kiện đặc biệt.
+            <br><br>
+            **Thời gian sử dụng:** Từ 1 đến 5 năm miễn phí, tùy theo gói đầu tư.
+            <br><br>
+            **Cách nhận thẻ:** Đăng ký tài khoản và tham gia chương trình đầu tư phù hợp. Nếu không kích hoạt tài khoản trong 24 giờ, tài khoản sẽ tự động vô hiệu.
+        </p>
+
+    </div>
+    <table class="benefit_tbl">
+        <thead>
+        <tr>
+            <th style="width: 20%;">
+
+                <div class="promo-title" style="text-align: center;">Thẻ VIP
+                </div>
+            </th>
+            <th style="width: 30%;">
+
+                <div class="promo-title" style="text-align: center;">Các ưu đãi
+                </div>
+            </th>
+            <th code="PEARL" class="ranking ranking_4 active" style="width: 15%;">
+
+                <div class="ranking-wrapper">
+
+                    <div class="ranking-img">
+                    </div>
+
+                    <div class="ranking-name three_dots_1">Số Tiền
+                    </div>
+                </div>
+            </th>
+            <th code="AMBASSADOR_PEARL" class="ranking ranking_5" style="width: 15%;">
+
+                <div class="ranking-wrapper">
+
+                    <div class="ranking-img">
+                    </div>
+
+                    <div class="ranking-name three_dots_1">Tiền Thưởng
+                    </div>
+                </div>
+            </th>
+            <th code="PEARL_CLUB" class="ranking ranking_6" style="width: 15%;">
+
+                <div class="ranking-wrapper">
+
+                    <div class="ranking-img">
+                    </div>
+
+                    <div class="ranking-name three_dots_1">Lãi Suất
+                    </div>
+                </div>
+            </th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td rowspan="2" class="b_name_n_condition">
+
+                <div class="b_name" style="font-weight: bold;"><img src="https://i.imgur.com/V1c6wBz.jpeg" alt="" width="200" height="440">
+                </div>
+
+                <div class="b_condition">Tích lũy giá trị từ 1 Tỷ đến 2 Tỷ
+                </div>
+            </td>
+            <td class="b_name_n_condition">
+
+                <div class="b_name" style="font-weight: bold;">Ưu đãi
+                </div>
+
+                <div class="b_condition">Giảm giá 10% cho tất cả các chuyến bay thương mại của SpaceX.
+                </div>
+            </td>
+            <td class="PEARL pearl active">
+
+                <div class="circle pearl">
+                </div>
+
+                <div class="val">1 Tỷ 180 Triệu
+                </div>
+            </td>
+            <td class="AMBASSADOR_PEARL ambassador_pearl">
+
+                <div class="circle ambassador_pearl">
+                </div>
+
+                <div class="val">106 Triệu
+                </div>
+            </td>
+            <td class="PEARL_CLUB pearl_club">
+
+                <div class="circle pearl_club">
+                </div>
+
+                <div class="val">0.5 %
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td class="b_name_n_condition">
+
+                <div class="b_name" style="font-weight: bold;">Ưu đãi
+                </div>
+
+                <div class="b_condition">Tham gia miễn phí các buổi hội thảo trực tuyến với các chuyên gia hàng đầu của SpaceX. Được quyền truy cập sớm vào các chương trình đặc biệt và sự kiện công bố công nghệ mới.
+                </div>
+            </td>
+            <td class="PEARL pearl active">
+
+                <div class="circle pearl">
+                </div>
+
+                <div class="val" style="color: rgb(137, 137, 148);">2 Tỷ 260 Triệu
+                </div>
+            </td>
+            <td class="AMBASSADOR_PEARL ambassador_pearl">
+
+                <div class="circle ambassador_pearl">
+                </div>
+
+                <div class="val" style="color: rgb(218, 190, 129);">203 Triệu
+                </div>
+            </td>
+            <td class="PEARL_CLUB pearl_club">
+
+                <div class="circle pearl_club">
+                </div>
+
+                <div class="val">0.55 %
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td rowspan="2" class="b_name_n_condition">
+
+                <div class="b_name" style="font-weight: bold;"><img src="https://i.imgur.com/O90HioX.jpeg" alt="" width="200" height="440">
+                </div>
+
+                <div class="b_condition">Tích lũy giá trị từ 4 Tỷ đến 8 Tỷ
+                </div>
+            </td>
+            <td class="b_name_n_condition">
+
+                <div class="b_name" style="font-weight: bold;">Ưu đãi
+                </div>
+
+                <div class="b_condition">Giảm giá 15% cho chuyến bay và quyền ưu tiên đặt vé vào các chuyến thám hiểm không gian.
+                    Quyền tham gia các sự kiện độc quyền và buổi gặp mặt với đội ngũ kỹ sư của SpaceX.
+                </div>
+            </td>
+            <td class="PEARL pearl active">
+
+                <div class="circle pearl">
+                </div>
+
+                <div class="val" style="color: rgb(137, 137, 148);">4 Tỷ 480 Triệu
+                </div>
+            </td>
+            <td class="AMBASSADOR_PEARL ambassador_pearl">
+
+                <div class="circle ambassador_pearl">
+                </div>
+
+                <div class="val" style="color: rgb(218, 190, 129);">358 Triệu
+                </div>
+            </td>
+            <td class="PEARL_CLUB pearl_club">
+
+                <div class="circle pearl_club">
+                </div>
+
+                <div class="val">0.6 %
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td class="b_name_n_condition">
+
+                <div class="b_name" style="font-weight: bold;">Ưu đãi
+                </div>
+
+                <div class="b_condition">Quyền tham gia các sự kiện độc quyền và buổi gặp mặt với đội ngũ kỹ sư của SpaceX. Tặng kèm bộ quà tặng SpaceX gồm các sản phẩm giới hạn.Dịch vụ chăm sóc khách hàng VIP 24/7.
+                </div>
+            </td>
+            <td class="PEARL pearl active">
+
+                <div class="circle pearl">
+                </div>
+
+                <div class="val" style="color: rgb(137, 137, 148);">8 Tỷ 880 Triệu
+                </div>
+            </td>
+            <td class="AMBASSADOR_PEARL ambassador_pearl">
+
+                <div class="circle ambassador_pearl">
+                </div>
+
+                <div class="val" style="color: rgb(218, 190, 129);">710 Triệu
+                </div>
+            </td>
+            <td class="PEARL_CLUB pearl_club">
+
+                <div class="circle pearl_club">
+                </div>
+
+                <div class="val">0.65 %
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td rowspan="2" class="b_name_n_condition">
+
+                <div class="b_name" style="font-weight: bold;"><img src="https://i.imgur.com/oSAu9Xa.jpeg" alt="" width="200" height="440">
+                </div>
+
+                <div class="b_condition">Tích lũy giá trị từ 16 Tỷ đến 32 Tỷ
+                </div>
+            </td>
+            <td class="b_name_n_condition">
+
+                <div class="b_name" style="font-weight: bold;">Ưu đãi
+                </div>
+
+                <div class="b_condition">Giảm giá 25% cho các chuyến bay cùng quyền ưu tiên VIP trên mọi chuyến thám hiểm..
+                </div>
+            </td>
+            <td class="PEARL pearl active">
+
+                <div class="circle pearl">
+                </div>
+
+                <div class="val" style="color: rgb(137, 137, 148);">16 Tỷ 668 triệu
+                </div>
+            </td>
+            <td class="AMBASSADOR_PEARL ambassador_pearl">
+
+                <div class="circle ambassador_pearl">
+                </div>
+
+                <div class="val" style="color: rgb(218, 190, 129);">1 Tỷ 166 Triệu
+                </div>
+            </td>
+            <td class="PEARL_CLUB pearl_club">
+
+                <div class="circle pearl_club">
+                </div>
+
+                <div class="val">0.7 %
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td class="b_name_n_condition">
+
+                <div class="b_name" style="font-weight: bold;">Ưu đãi
+                </div>
+
+                <div class="b_condition">Quyền gặp gỡ riêng với đội ngũ lãnh đạo SpaceX và trải nghiệm thuyết trình đặc biệt về các dự án sắp tới.
+
+                </div>
+            </td>
+            <td class="PEARL pearl active">
+
+                <div class="circle pearl">
+                </div>
+
+                <div class="val" style="color: rgb(137, 137, 148);">32 Tỷ 228 Triệu
+                </div>
+            </td>
+            <td class="AMBASSADOR_PEARL ambassador_pearl">
+
+                <div class="circle ambassador_pearl">
+                </div>
+
+                <div class="val" style="color: rgb(218, 190, 129);">2 Tỷ 255 Triệu
+                </div>
+            </td>
+            <td class="PEARL_CLUB pearl_club">
+
+                <div class="circle pearl_club">
+                </div>
+
+                <div class="val">0.8 %
+                </div>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</section>
+<!-- footer  -->
+<section class="section-h">
+    <div class="section-inner" style="top: 33px; bottom: unset">
+        <h2>Lãi suất huy động vốn</h2>
+        <table style="width: 100%;" class="von-luu-dong">
+            <thead>
+            <tr>
+                <th>Số Tiền</th>
+                <th>Tiền Thưởng</th>
+                <th>Phần Trăm</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>12 Triệu</td>
+                <td>2.2 Triệu</td>
+                <td>0.1%</td>
+            </tr>
+            <tr>
+                <td>36 Triệu</td>
+                <td>3.2 Triệu</td>
+                <td>0.2%</td>
+            </tr>
+            <tr>
+                <td>116 Triệu</td>
+                <td>10.4 Triệu</td>
+                <td>0.25%</td>
+            </tr>
+            <tr>
+                <td>336 Triệu</td>
+                <td>30.2 Triệu</td>
+                <td>0.3%</td>
+            </tr>
+            <tr>
+                <td>556 Triệu</td>
+                <td>50 Triệu</td>
+                <td>0.35%</td>
+            </tr>
+            <tr>
+                <td>888 Triệu</td>
+                <td>79.9 Triệu</td>
+                <td>0.4%</td>
+            </tr>
+            <tr>
+                <td>1 Tỷ 156</td>
+                <td>156 Triệu</td>
+                <td>0.6%</td>
+            </tr>
+            <tr>
+                <td>3 Tỷ 366</td>
+                <td>366 Triệu</td>
+                <td>0.65%</td>
+            </tr>
+            <tr>
+                <td>6 Tỷ 666</td>
+                <td>666 Triệu</td>
+                <td>0.7%</td>
+            </tr>
+            <tr>
+                <td>12 Tỷ 228</td>
+                <td>1 Tỷ 220</td>
+                <td>0.75%</td>
+            </tr>
+            <tr>
+                <td>24 Tỷ 466</td>
+                <td>2 Tỷ 201</td>
+                <td>0.8%</td>
+            </tr>
+            <tr>
+                <td>48 Tỷ 888</td>
+                <td>4 Tỷ 399</td>
+                <td>0.85%</td>
+            </tr>
+            <tr>
+                <td>56 Tỷ 499</td>
+                <td>5 Tỷ 100</td>
+                <td>0.95%</td>
+            </tr>
+            <tr>
+                <td>69 Tỷ 700</td>
+                <td>6 Tỷ 430</td>
+                <td>1%</td>
+            </tr>
+            <tr>
+                <td>77 Tỷ 380</td>
+                <td>6 Tỷ 690</td>
+                <td>1.1%</td>
+            </tr>
+            <tr>
+                <td>89 Tỷ 156</td>
+                <td>8 Tỷ 111</td>
+                <td>1.15%</td>
+            </tr>
+            <tr>
+                <td>102 Tỷ 200</td>
+                <td>9 Tỷ 184</td>
+                <td>1.2%</td>
+            </tr>
+            <tr>
+                <td>128 Tỷ 500</td>
+                <td>11 Tỷ 680</td>
+                <td>1.25%</td>
+            </tr>
+            <tr>
+                <td>150 Tỷ 500</td>
+                <td>13 Tỷ 498</td>
+                <td>1.3%</td>
+            </tr>
+            <tr>
+                <td>200 Tỷ</td>
+                <td>17 Tỷ 930</td>
+                <td>1.5%</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</section>
+<footer>
+        <ul>
+            <li><a class="spacex-text" href="#"> SPACEX © 2024</a></li>
+            <li><a href="#">TWITTER</a></li>
+            <li><a href="#">YOUTUBE</a></li>
+            <li><a href="#">INSTAGRAM</a></li>
+            <li><a href="#">CHÍNH SÁCH</a></li>
+        </ul>
+    </footer>
+</body>
+</html>

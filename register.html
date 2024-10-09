@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+            crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/quyen-loi.css" />
+    <link rel="stylesheet" href="./css/theme.css" />
+    <script src="./js/script.js" defer></script>
+    <title>SpaceX - Falcon 9</title>
+</head>
+<body>
+<div id="overlay"></div>
+<div id="mobile-menu" class="mobile-main-menu">
+    <ul>
+        <li><a href="#">Giới thiệu tập đoàn</a></li>
+        <li><a href="#">Lĩnh vực hoạt động</a></li>
+        <li><a href="#">Quan hệ cổ đông</a></li>
+        <li class="mobile-only"><a href="falcon9.html">Trang chủ</a></li>
+        <li class="mobile-only">
+            <a href="falcon-heavy.html">Tin tức</a>
+        </li>
+        <li class="mobile-only"><a href="dragon.html">Quyền lợi</a></li>
+        <li class="mobile-only"><a href="#">Tuyển dụng</a></li>
+        <li class="mobile-only"><a href="#">Liên hệ</a></li>
+        <li class="mobile-only"><a href="#">Đăng nhập</a></li>
+    </ul>
+</div>
+<div class="Header__Wrapper" style="background: black">
+    <div class="Header__FlexItem Header__FlexItem--logo Header__FlexItem--desktop-logo"><div class="Header__Logo"><a href="/" class="Header__LogoLink"><img class="Header__LogoImage Header__LogoImage--primary" src="//shop.spacex.com/cdn/shop/files/SpaceX_logo_white_6eaf0441-42af-4396-974e-d6dc2f8ff45c_160x.png?v=1614778073" srcset="//shop.spacex.com/cdn/shop/files/SpaceX_logo_white_6eaf0441-42af-4396-974e-d6dc2f8ff45c_160x.png?v=1614778073 1x, //shop.spacex.com/cdn/shop/files/SpaceX_logo_white_6eaf0441-42af-4396-974e-d6dc2f8ff45c_160x@2x.png?v=1614778073 2x" width="160" alt="SpaceX Store"></a></div></div>
+</div>
+<!-- hamburger menu  -->
+
+<main id="main" tabindex="-1">
+    <section data-section-id="reset-password" data-section-type="reset-password">
+        <div class="Container">
+            <div class="PageContent PageContent--fitScreen PageContent--extraNarrow"><form method="post" action="/account" id="create_customer" accept-charset="UTF-8" data-login-with-shop-sign-up="true" name="create_customer" class="Form Form--spacingTight" data-cptcha="true" data-hcaptcha-bound="true"><input type="hidden" name="form_type" value="create_customer"><input type="hidden" name="utf8" value="✓"><header class="Form__Header">
+                <h1 class="Form__Title Heading u-h1">Register</h1>
+                <p class="Form__Legend">Please fill in the information below:</p>
+            </header><div class="Form__Item">
+                <input type="text" class="Form__Input" name="customer[first_name]" aria-label="First name" placeholder="First name" autofocus="">
+                <label class="Form__FloatingLabel">First name</label>
+            </div>
+
+                <div class="Form__Item">
+                    <input type="text" class="Form__Input" name="customer[last_name]" aria-label="Last name" placeholder="Last name">
+                    <label class="Form__FloatingLabel">Last name</label>
+                </div>
+
+                <div class="Form__Item">
+                    <input type="email" class="Form__Input" name="customer[email]" aria-label="Email" placeholder="Email" required="required">
+                    <label class="Form__FloatingLabel">Email</label>
+                </div>
+
+                <div class="Form__Item">
+                    <input type="password" class="Form__Input" name="customer[password]" aria-label="Password" placeholder="Password" required="required">
+                    <label class="Form__FloatingLabel">Password</label>
+                </div>
+
+                <button type="submit" class="Form__Submit Button Button--primary Button--full">Create my account</button><input type="hidden" name="login_with_shop[analytics_trace_id]" value="7bd5c299-fba8-4198-957d-4e37f6434e4b"><div class="h-captcha" data-sitekey="f06e6c50-85a8-45c8-87d0-21a2b65856fe" data-size="invisible"><iframe aria-hidden="true" data-hcaptcha-widget-id="0ynnb5jkas3" data-hcaptcha-response="" src="https://newassets.hcaptcha.com/captcha/v1/2766c43/static/hcaptcha.html#frame=checkbox-invisible" style="display: none;"></iframe><textarea id="h-captcha-response-0ynnb5jkas3" name="h-captcha-response" style="display: none;"></textarea></div></form><div id="shopify-section-employee-login-register" class="shopify-section"></div></div>
+        </div>
+    </section><script data-locksmith="">
+    var load = function () {
+
+        Locksmith.ping();
+
+
+        Locksmith.util.on('submit', 'locksmith-resource-form', function (event) {
+            event.preventDefault();
+            var data = Locksmith.util.serializeForm(event.target);
+            Locksmith.postResource(data, { spinner: false, container: 'locksmith-content' });
+        });
+
+        Locksmith.util.on('click', 'locksmith-manual-trigger', function (event) {
+            event.preventDefault();
+            Locksmith.postResource({}, { spinner: true, container: document });
+        });
+
+        Locksmith.submitPasscode = function (passcode) {
+            Locksmith.postResource(
+                { passcode: passcode },
+                { spinner: false, container: 'locksmith-content' }
+            );
+        };
+    };
+
+    if (typeof Locksmith !== 'undefined') {
+        load();
+    } else {
+        window.addEventListener('load', load);
+    }
+</script>
+</main>
+<footer>
+    <ul>
+        <li><a class="spacex-text" href="#"> SPACEX © 2024</a></li>
+        <li><a href="#">TWITTER</a></li>
+        <li><a href="#">YOUTUBE</a></li>
+        <li><a href="#">INSTAGRAM</a></li>
+        <li><a href="#">CHÍNH SÁCH</a></li>
+    </ul>
+</footer>
+</body>
+</html>
